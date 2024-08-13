@@ -37,8 +37,6 @@ const ChatbotApp = () => {
                 return "Hi! How can I assist you today?";
             case "hi":
                 return "Hi! How can I assist you today?";
-            case "What is your name?":
-                return "My name is AI Chatbot created by Dhanu";
             case "how are you":
                 return "I am great! Thanks";
             case "bye":
