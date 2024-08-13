@@ -9,10 +9,10 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~51.0.22",
+    "expo": "^51.0.26",
     "expo-status-bar": "~1.12.1",
     "react": "18.2.0",
-    "react-native": "0.74.3",
+    "react-native": "^0.74.5",
     "react-native-gifted-chat": "^2.4.0"
   },
   "devDependencies": {

@@ -5,7 +5,7 @@ const ChatbotApp = () => {
     const [messages, setMessages] = useState([
         {
             _id: 1,
-            text: "Hello! I am Vishy chatbot. How can I help you?",
+            text: "Hello! I am AI chatbot. How can I help you?",
             createdAt: new Date(),
             user: { _id: 2, name: "Chatbot" },
         },
@@ -35,12 +35,16 @@ const ChatbotApp = () => {
         switch (userMessage.toLowerCase()) {
             case "hello":
                 return "Hi! How can I assist you today?";
+            case "hi":
+                return "Hi! How can I assist you today?";
+            case "What is your name?":
+                return "My name is AI Chatbot created by Dhanu";
             case "how are you":
                 return "I am great! Thanks";
             case "bye":
-                return "Goodbye! If you have need any help, plz feel free to ask me!";
+                return "Goodbye! If you need any help, plz feel free to ask me!";
             default:
-                return "I'm sorry, I didn't understand that. Can you please rephrase?";
+                return "I'm sorry, I didn't understand that. Can you please repeat?";
         }
     };
 

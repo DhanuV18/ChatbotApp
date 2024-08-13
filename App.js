@@ -5,11 +5,9 @@ import ChatbotApp from './ChatbotApp.js';
 const App = () => {
     return (
         <SafeAreaView style={styles.container}>
-
             <Text style={styles.heading}>
-                Vishy Chatbot App
+                AI Chatbot App
             </Text>
-
             <ChatbotApp />
         </SafeAreaView>
     );
@@ -20,12 +18,12 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 40,
     marginTop: 40,
-    backgroundColor: "#A1D6E2",
+    backgroundColor: "gold",
     color: "#F1F1F2"
     
   },
   heading: {
-    color: "#00246B",
+    color: "tomato",
     fontSize: 20,
     fontWeight: "bold",
     textAlign: "center"
